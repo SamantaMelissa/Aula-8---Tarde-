@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.topo {
+    width: 100%;
+    height: 41px;
+    background-color: #1c1c1c;
+}
+
+.container {
+    width: 1366px;
+    height: 100%;
+    margin: auto;
+}
+
+.menu-topo {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.menu-topo ul{
+    height: 100%;
+    display: flex; 
+    list-style-type: none; 
+    align-items: center;
+    justify-content:flex-end ;
+}
+
+
+
+.menu-topo a{
+    text-decoration: none;
+    color: #dfdfdf;
+    padding: 12px 30px;
+}
+
+.menu-topo a:hover {
+    color: #fff;
+    text-shadow: 0px 0px 5px #dfdfdf; ; /* luz no texto*/
+}
+.topo-principal {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+
+.menu-principal {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-principal ul {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-principal a {
+    padding: 27px 50px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+}
+
+.menu-principal a:hover {
+    background-color: white;
+    color: #000;
+    box-shadow: 1px 1px 5px #000;
+}
+
+
+.destaque {
+    width: 100%;
+    height: 350px;
+    background-color: red;
+    position: relative;
+}
+
+.destaque img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.destaque-textos {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 0px 3px black ;
+}
+
+.destaque-textos h1 {
+    font-size: 40px;
+}
+
+.destaque-textos p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+  
+.destaque-textos a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px; /*curvatura nas bordas*/
+    box-shadow: 0px 5px 20px white; /*sombra*/
+    color: #fff;
+    
+}
+
+.destaque-textos a:hover {
+    background-color: rgba(255, 255, 255, 0.582);
+    box-shadow:  0px 5px 20px black;
+    color: #000;
+
+}
+
+.noticias h2 {
+    text-align: center;
+    margin: 40px;
+}
+
+
+.card {
+    width: 250px;
+    height: 400px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+
+.card img {
+    width: 100%;
+}   
+
+.card h3 {
+    text-align: center;
+    margin: 5px;
+}
+
+.card p {
+    line-height: 22px; /* espaço entre as linhas*/
+    padding: 0 10px;
+
+}
+
+.flex {
+    display: flex;
+    
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    background-color: black;
+    color: blanchedalmond;
+    al;
+}
+
+main {  
+    height: 2000px;
+}

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    width: 1366px; /*Largura*/
+    height: 150px; /*altura*/
+    background-color: red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cabecalho img{
+    width: 150px ;
+    height: 70px;
+}
+
+.menu{
+    width: 700px;
+    height: 50px;
+    /* background: #ffffff; */
+
+}
+.menu ul { 
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li {padding-top: 15px;
+        
+    }
+  
+ .menu a{
+        padding: 15px 40px;
+        margin: 0 2px;
+        /* background-color: red;  */
+    }
+    
+main{
+        width: 1366px ;
+        height: 1000px;
+        background-color: #bbb;
+        margin: 0 auto; 
+        font-family: 'Segoe UI';   
+    }
+
+.destaque{
+        width: 100% ;
+    
+
+     }
+ h1 {
+         font-size: 30px;
+         text-align: center;
+         color: #222222;
+     }
+        
+.conteudo_principal {
+    width: 95%;
+    height: 500px;
+    background-color: salmon;
+    margin: 0 auto;
+    }
+
+
+

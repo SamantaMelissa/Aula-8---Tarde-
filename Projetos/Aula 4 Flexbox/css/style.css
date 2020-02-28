@@ -1,0 +1,82 @@
+body {
+    background-color: #272727;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.bloco{
+    width: 80%;
+    height: auto;
+    min-height: 200px;
+    background-color: #1a1a1a;
+    margin: 0 auto;
+    display: flex;
+    /* Quebra os elementos ao ultrapassar limites */
+     flex-flow: wrap; 
+}
+
+.caixa {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+.justify_content_flex-start {
+    justify-content: flex-start;
+}
+.justify_content_flex-end {
+   justify-content: flex-end;
+}
+.justify_content_space-between {
+   justify-content: space-between;
+}
+.justify_content_space-around {
+   justify-content: space-around;
+}
+.justify_content_space-evelyn {
+   justify-content: space-evenly;
+}
+
+/* Alinhas verticalmente */
+ .align-itens {
+     align-items: center;
+ }
+
+ /* muda para direção vertical */
+ .flex-direction {
+     flex-direction: column;
+ }
+ 
+ .align-content {
+     height: 1000px;
+     align-content: space-around;
+ }
+
+ .align-content {
+     height: 1000px;
+     align-content: space-between;
+ }
+
+ .p1 {
+     order: 1;
+ }
+ .p2 {
+     order: 2;
+ }
+ .p3 order: 3;
+ }
+ .p4 {
+     order: 4;}
+ 
+ .p5 {
+     order: 5;
+ }
+
+ .align-itens { align-items: ;}
+ }

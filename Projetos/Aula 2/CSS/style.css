@@ -1,0 +1,47 @@
+Body {background-color: #272727;color: #ffffff}
+
+H1{ TEXT-ALIGN: CENTER;}
+
+
+img{ width: 80%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+/*SELETOR POR TAG*/
+p{
+
+    color: grey; 
+}
+
+/*SELETOR POR cLASSE*/
+.vermelho{
+    color: #ff0000
+
+}
+/*SELETOR POR ID*/
+#paragrafo_principal{font-family: 'Segoe UI';
+text-align: center;}
+
+
+.ex_margin_padding {
+    background-color:white;
+    margin: 50px;
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    font-style: oblique;
+    
+
+}
+
+.descricao {
+    background-image: url("../images/fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 0px;
+}
